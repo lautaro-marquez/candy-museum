@@ -25,3 +25,19 @@ body {
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
 }
+
+#hero-main h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+#hero-main span {
+    color: #EA1C2C;
+}
+
+@media (max-width: 1200px) {
+    #hero-main h1 {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
