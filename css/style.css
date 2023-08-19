@@ -46,6 +46,19 @@ body {
     line-height: 2;
 }
 
+.btn-primary,
+.btn-primary:active {
+    background-color: #EA1C2C;
+    font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+    border-color: #EA1C2C;
+}
+
+.btn-primary:hover {
+    background-color: #f5d9d5;
+    color: #EA1C2C;
+    border-color: #EA1C2C;
+}
+
 .blurb h2 {
     color: #EA1C2C;
     font-weight: 300;
