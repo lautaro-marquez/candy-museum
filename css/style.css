@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +8,8 @@
 
 body {
     background: #f5d9d5;
-    font-family: "Nunito", Arial, Helvetica, system-ui, sans-serif;
+    /* font-family: 'Atkinson Hyperlegible', Arial, Helvetica, system-ui, sans-serif;
+    font-family: 'Unica One', cursive; */
 }
 
 #mainNavbar {
@@ -28,7 +31,7 @@ body {
 
 #hero-main h1 {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #hero-main span {
@@ -43,14 +46,19 @@ body {
 
 .blurb p {
     color: #eb6b97;
-    font-weight: 100;
-    font-size: 1.125rem;
+    font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+h1, h2 {
+    font-family: "Unica One", cursive;
 }
 
 /* .navbar.scrolled {
